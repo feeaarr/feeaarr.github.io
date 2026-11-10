@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Renfan Li</title>
+<style>
+  :root {
+    --ink: #1c1c1e;
+    --muted: #5f6368;
+    --line: #e3e3e6;
+    --accent: #8c1d18;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 64px 24px 96px;
+    background: #fcfcfb;
+    color: var(--ink);
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 {
+    margin: 0 0 6px;
+    font: 600 34px/1.2 Georgia, "Times New Roman", "Songti SC", serif;
+    letter-spacing: .2px;
+  }
+  .role { margin: 0 0 4px; color: var(--ink); }
+  .affil { margin: 0 0 28px; color: var(--muted); }
+  .links { margin: 0 0 36px; font-size: 15px; }
+  .links a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(140,29,24,.25); }
+  .links a:hover { border-bottom-color: var(--accent); }
+  .links span { color: #c4c4c6; margin: 0 10px; }
+  section { margin-top: 34px; }
+  h2 {
+    margin: 0 0 10px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 8px;
+  }
+  p { margin: 0 0 12px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  .edu-line { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .edu-line .when { color: var(--muted); font-size: 14px; }
+  footer { margin-top: 56px; color: #9a9a9e; font-size: 13px; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Renfan Li</h1>
+  <p class="role">M.S. Student in Electronic Information</p>
+  <p class="affil">Central South University &middot; Changsha, China</p>
+
+  <p class="links">
+    <a href="mailto:renfanli@csu.edu.cn">renfanli@csu.edu.cn</a>
+    <span>|</span>
+    <a href="https://scholar.google.com/">Google Scholar</a>
+    <span>|</span>
+    <a href="https://github.com/">GitHub</a>
+  </p>
+
+  <section>
+    <h2>About</h2>
+    <p>
+      I am a master's student in Electronic Information at Central South University.
+      My research focuses on computer vision and deep learning.
+    </p>
+  </section>
+
+  <section>
+    <h2>Research Interests</h2>
+    <ul>
+      <li>Computer vision</li>
+      <li>Deep learning</li>
+      <li>Visual perception and representation learning</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="edu-line">
+      <div><strong>Central South University</strong><br>M.S. in Electronic Information</div>
+      <div class="when">Changsha, China</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:renfanli@csu.edu.cn">renfanli@csu.edu.cn</a></p>
+  </section>
+
+  <footer>Last updated: November 2026</footer>
+</main>
+</body>
+</html>
